@@ -1,3 +1,8 @@
+# README
+
+This is a fork of the excellent [manuscript template from the Poisot Lab](https://github.com/PoisotLab/manuscript-template), which takes a manuscript 
+written in Markdown (`manuscript.md`) and builds an HTML version hosted on Github pages and produces preprint and copyediting versions of the manuscript as pdfs, rendered with TeX. This fork has all my css stuff, etc. 
+
 ## How to use the manuscript template?
 
 - Click on the "Use this template" button
