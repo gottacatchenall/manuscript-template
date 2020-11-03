@@ -8,10 +8,11 @@
     --citation: #00897B;
 
     --width: 900px;
-    --inner-space: 1.2em;
+    --inner-space: 1.5em;
 }
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 18px;
     margin: 0 0;
     padding: 0 0;
 }
@@ -55,6 +56,7 @@ header {
 .header--authors > span > a {
     color: white;
     font-size: 90%;
+    font-weight: 300;
 }
 main {
     padding-top: 8em !important;
