@@ -6,7 +6,8 @@ This template uses recent versions of `pandoc` and `pandoc-crossref` to
 faciltate the referencing of equations, figures, and tables within the text. For
 example, the following equation
 
-$$J'(p) = \frac{1}{\text{log}(S)}\times\left(-\sum p \times \text{log}(p)\right)$$ {#eq:eq1}
+$$J'(p) = \frac{1}{\text{log}(S)}\times\left(-\sum p \times \text{log}(p)\right)$${#eq:eq1}
+
 
 is produced using
 
