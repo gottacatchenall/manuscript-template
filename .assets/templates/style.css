@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
-    --structure: #1976D2;
-    --links: #00897B;
+    --structure: hsl(211, 60%, 16%);
+    --links: #0565DF;
     --light: #9E9E9E;
     --pale: #e0e0e0;
-    --citation: #e67e22;
+    --citation: #00897B;
 
     --width: 900px;
     --inner-space: 1.2em;
 }
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", "Open Sans", sans-serif;
     margin: 0 0;
     padding: 0 0;
 }
