@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${ title }</title>
     <script src="https://hypothes.is/embed.js" async></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -57,8 +58,8 @@
         <section class="abstract">
             <b>Abstract:</b> ${ description }<br />
             <div class="artifacts">
-                <a href="$filename$-copyedit.pdf" title="Draft PDF" target="_blank">draft</a>
-                <a href="$filename$-preprint.pdf" title="Preprint PDF" target="_blank">preprint</a>
+                <a href="draft.pdf" title="Draft PDF" target="_blank">draft</a>
+                <a href="preprint.pdf" title="Preprint PDF" target="_blank">preprint</a>
             </div>
         </section>
         
@@ -71,11 +72,10 @@
         <div class="container">
             <h2>Affiliations</h2> 
             ${ institutions:_list_institutions()[; ] }
+            <br />
+            ${ metadata.equalcontributions:_list_institutions()[; ] }
         </div>
     </footer>
     
-    
 </body>
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
-
 </html>
